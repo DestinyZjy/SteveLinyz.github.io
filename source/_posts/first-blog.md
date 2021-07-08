@@ -1,8 +1,15 @@
 ---
 title: Linux + Hexo + Github 搭建个人博客
+tags: 
+    - Linux
+    - Hexo
+    - Git
+    - blog
 date: 2021.6.27
 cover: https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
 top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+copyright_author: SteveLin
+toc_number: false
 
 ---
 
@@ -123,10 +130,10 @@ The key's randomart image is:
 +---[RSA 2048]----+
 |              . +|
 |             E = |
-|      o = o B *o*|
+|      o = o K *o*|
 |     . @ * + Xo@+|
 |      = S . o =o+|
-|     . +     . +=|
+|      . +    . +=|
 |      +       .+=|
 |       .      o.o|
 |               o |
@@ -138,7 +145,7 @@ The key's randomart image is:
 ```bash
 [root@iZuf68enovvnl1qpz1bvdoZ ~]# cd .ssh/
 [root@iZuf68enovvnl1qpz1bvdoZ .ssh]# cat id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWK+X3w3ODYagL6FyhNREZWcWZY/3Y709GKYXVFZrXTsJx/zDVOtKKQW97WIX8Nw4/36jo6AY9jWKWwEyjiuTBQILmq9imowBHETVS5ETqbZlINY2oUmyfY9IVlBAJ/paERzQ2kik/8Fi5RralQddAQV9k3/L/tTHY1CPxS+W6zFksfH2kgvpDGZBK5PvCjKHxFaYnN5wBjfGt5HIbVoeHFlg8XMNCbwPBEPweDUWsAncfA4cJ+1doNdah0jcQM3LwVIsel2itEKnwq8WuHkR+DEGpRxA1Xon+tWNHvY9tnFWZf3/8jWY36W4EK5Rwqw2aELeVGvKnS4ybH7EPk7tP root@iZuf68enovvnl1qpz1bvdoZ
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWK+X3w3ODYagL6FyhNREZWcWZY/3Y709GKYXVFZrXTsJx/zDVOtKKQW97WIX8Nw4/36jo6AY9jWKWwEyjiuTBQILmq9imowBHETVS5ETqbZlINY2oUmyfY9IVlBAJ/paERzS8kik/8Fi5RralQddAQV9k3/L/tTHY1CPxS+W6zFksfH2kgvpDGZBK5PvCjKHxFaYnN5wBjfGt5HIbVoeSLlg8XMNCbwPBEPweDUWsAncfA4cJ+1doNdah0jcQM3LwVIdwl2itEKnwq8WuHkR+DEGpRxA1Xon+tWNHvY9tnFWZf3/8jWY36W4EK5Rwqw2aELeVGvKnS4ybH7EPk7tP root@iZuf68enovvnl1qpz1bvdoZ
 ```
 
 **添加SSH key到github上：**
